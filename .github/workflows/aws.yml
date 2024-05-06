@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Downloading ngrok
         run: |
-          Invoke-WebRequest https://github.com/Oudisho-Qattyne/Remote-Linux/resources/ngrok.zip -OutFile ngrok.zip
-          Invoke-WebRequest https://github.com/Oudisho-Qattyne/Remote-Linux/resources/start.bat -OutFile start.bat
+          Invoke-WebRequest https://www.github.com/Oudisho-Qattyne/Remote-Linux/resources/ngrok.zip -OutFile ngrok.zip
+          Invoke-WebRequest https://www.github.com/Oudisho-Qattyne/Remote-Linux/resources/start.bat -OutFile start.bat
 
       - name: Extracting ngrok Files
         run: Expand-Archive ngrok.zip
